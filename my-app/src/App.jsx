@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect, useState } from "react";
+import "./App.css";
+import Sidebar from "../src/Components/Sidebar";
+import Homepage from "./Components/Homepage.jsx";
+import VoucherManage from "./Components/VoucherManage.jsx";
+import UserManage from "./Components/UserManage.jsx";
+import Statistics from "./Components/Statistics.jsx";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [selectedIndex, setSelected] = useState(0);
+
+    useEffect(() => {
+        return () => {};
+    }, [selectedIndex]);
+
+    const RenderComponent = ({ index }) => {
+        switch (index) {
+            case 0:
+                return <Homepage setSelected={setSelected} />;
+            case 1:
+                return <UserManage />;
+            case 2:
+                return <VoucherManage />;
+            case 3:
+                return <Statistics />;
+            default:
+                return <Homepage />;
+        }
+    };
+
+    return (
+        <div>
+            <Sidebar setSelected={setSelected} />
+            <RenderComponent index={selectedIndex} />
+        </div>
+    );
 }
 
 export default App;
