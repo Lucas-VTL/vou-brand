@@ -4,7 +4,7 @@ import userData from "../utils/jsonFiles/userData.json";
 import avatar from "../utils/images/ava.jpg";
 import "../Styles/Manage.css";
 
-function UserManage() {
+function EventManage() {
     const [allProfileData, setAllProfileData] = useState([]);
     const [profileData, setProfileData] = useState([]);
     const [newProfileData, setNewProfileData] = useState([]);
@@ -1451,4 +1451,4 @@ function UserManage() {
     );
 }
 
-export default UserManage;
+export default EventManage;

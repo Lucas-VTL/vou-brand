@@ -3,7 +3,7 @@ import "./App.css";
 import Sidebar from "../src/Components/Sidebar";
 import Homepage from "./Components/Homepage.jsx";
 import VoucherManage from "./Components/VoucherManage.jsx";
-import UserManage from "./Components/UserManage.jsx";
+import UserManage from "./Components/EventManage.jsx";
 import Statistics from "./Components/Statistics.jsx";
 
 function App() {
