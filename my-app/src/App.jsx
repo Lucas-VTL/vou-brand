@@ -29,6 +29,7 @@ function App() {
     };
 
     return (
+
         <div>
             <Sidebar setSelected={setSelected} />
             <RenderComponent index={selectedIndex} />

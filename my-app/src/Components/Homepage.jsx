@@ -4,11 +4,14 @@ import userManageImage from "../utils/images/userManage.png";
 import gameManageImage from "../utils/images/gameManage.png";
 import voucherManageImage from "../utils/images/voucherManage.png";
 import statisticManageImage from "../utils/images/statisticManage.png";
+import eventManageImage from "../utils/images/eventManage.png"
 
 import downloadIcon from "../utils/icons/download.png";
 import loveIcon from "../utils/icons/love.png";
 import userIcon from "../utils/icons/user.png";
 import gameIcon from "../utils/icons/game.png";
+import starIcon from "../utils/icons/star.png";
+import eventIcon from "../utils/icons/party.png"
 import voucherIcon from "../utils/icons/voucher.png";
 import newIcon from "../utils/icons/new.png";
 import profitIcon from "../utils/icons/profit.png";
@@ -34,7 +37,7 @@ function Homepage({ setSelected }) {
 
     return (
         <div class="bg-white font-Kanit" data-theme="retro">
-            <div class="lg:block hidden">
+            <div class="lg:block hidden h-[664px]">
                 <div class="flex w-full p-5">
                     <div class="flex flex-col mr-2 items-center w-2/3">
                         <div class="font-bold sm:text-lg xl:text-xl 2xl:text-2xl text-info mb-5">
@@ -43,9 +46,9 @@ function Homepage({ setSelected }) {
                         <div class="stats shadow mb-5 w-full">
                             <div class="stat">
                                 <div class="stat-figure text-secondary">
-                                    <img src={downloadIcon} alt="download"></img>
+                                    <img src={starIcon} alt="download"></img>
                                 </div>
-                                <div class="stat-title text-black">Lượt tải về</div>
+                                <div class="stat-title text-black">Lượt đánh giá</div>
                                 <div class="stat-value text-red-400">2.8K</div>
                                 <div class="stat-desc">↗︎ 1.2K so với hôm qua (22%)</div>
                             </div>
@@ -63,9 +66,9 @@ function Homepage({ setSelected }) {
                         <div class="stats shadow mb-5 w-full overflow-hidden">
                             <div class="stat">
                                 <div class="stat-figure text-secondary">
-                                    <img src={userIcon} alt="download"></img>
+                                    <img src={eventIcon} alt="download"></img>
                                 </div>
-                                <div class="stat-title text-black">Tổng người dùng</div>
+                                <div class="stat-title text-black">Tổng sự kiện</div>
                                 <div class="stat-value text-red-400">12.6K</div>
                             </div>
 
@@ -149,8 +152,8 @@ function Homepage({ setSelected }) {
                                 }}
                             >
                                 <img
-                                    src={userManageImage}
-                                    alt="User Management"
+                                    src={voucherManageImage}
+                                    alt="Voucher Management"
                                     className="bg-info-content"
                                 />
                             </button>
@@ -160,8 +163,8 @@ function Homepage({ setSelected }) {
                                 }}
                             >
                                 <img
-                                    src={gameManageImage}
-                                    alt="Game Management"
+                                    src={eventManageImage}
+                                    alt="Event Management"
                                     className="bg-red-400"
                                 />
                             </button>
@@ -171,20 +174,9 @@ function Homepage({ setSelected }) {
                                 }}
                             >
                                 <img
-                                    src={voucherManageImage}
-                                    alt="Voucher Management"
-                                    className="bg-info-content"
-                                />
-                            </button>
-                            <button
-                                onClick={() => {
-                                    subPageTransition(4);
-                                }}
-                            >
-                                <img
                                     src={statisticManageImage}
                                     alt="Statistic Management"
-                                    className="bg-red-400"
+                                    className="bg-info-content"
                                 />
                             </button>
                         </Carousel>
@@ -199,7 +191,7 @@ function Homepage({ setSelected }) {
                         </div>
                         <div class="stats shadow mb-5 w-full text-sm">
                             <div class="stat">
-                                <div class="stat-title text-black">Lượt tải về</div>
+                                <div class="stat-title text-black">Lượt đánh giá</div>
                                 <div class="stat-value text-red-400">2.8K</div>
                                 <div class="stat-desc">↗︎ 1.2K (22%)</div>
                             </div>
@@ -213,7 +205,7 @@ function Homepage({ setSelected }) {
 
                         <div class="stats shadow mb-5 w-full text-sm">
                             <div class="stat">
-                                <div class="stat-title text-black">Tổng người dùng</div>
+                                <div class="stat-title text-black">Tổng sự kiện</div>
                                 <div class="stat-value text-red-400">12.6K</div>
                             </div>
 
@@ -281,8 +273,8 @@ function Homepage({ setSelected }) {
                                 }}
                             >
                                 <img
-                                    src={userManageImage}
-                                    alt="User Management"
+                                    src={voucherManageImage}
+                                    alt="Voucher Management"
                                     className="bg-info-content"
                                 />
                             </button>
@@ -292,8 +284,8 @@ function Homepage({ setSelected }) {
                                 }}
                             >
                                 <img
-                                    src={gameManageImage}
-                                    alt="Game Management"
+                                    src={eventManageImage}
+                                    alt="Event Management"
                                     className="bg-red-400"
                                 />
                             </button>
@@ -303,20 +295,9 @@ function Homepage({ setSelected }) {
                                 }}
                             >
                                 <img
-                                    src={voucherManageImage}
-                                    alt="Voucher Management"
-                                    className="bg-info-content"
-                                />
-                            </button>
-                            <button
-                                onClick={() => {
-                                    subPageTransition(4);
-                                }}
-                            >
-                                <img
                                     src={statisticManageImage}
                                     alt="Statistic Management"
-                                    className="bg-red-400 h-full"
+                                    className="bg-info-content h-full"
                                 />
                             </button>
                         </Carousel>
