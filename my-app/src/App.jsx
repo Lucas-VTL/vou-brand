@@ -30,8 +30,10 @@ function App() {
 
     return (
         <div>
-            <Sidebar setSelected={setSelected} />
-            <RenderComponent index={selectedIndex} />
+            <div className="bg-white h-screen ">
+                <Sidebar setSelected={setSelected} />
+                <RenderComponent index={selectedIndex} />
+            </div>
         </div>
     );
 }
