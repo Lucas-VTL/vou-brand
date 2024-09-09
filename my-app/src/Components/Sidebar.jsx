@@ -78,50 +78,44 @@ function Sidebar({ setSelected }) {
                                     <h1 class="text-center font-bold text-2xl text-red-500">
                                         YuLockii
                                     </h1>
-                                    <span class="justify-center badge badge-info">Admin</span>
-                                    <div class="flex">
+                                    <span class="justify-center badge badge-info">Brand</span>
+                                    <div class="flex flex-start w-full">
                                         <h3 class="text-center text-lg text-black whitespace-nowrap">
-                                            Họ tên:
+                                            Họ tên:&nbsp;
                                         </h3>
-                                        <input
-                                            type="text"
-                                            placeholder="Võ Tấn Lộc"
-                                            class="input input-ghost w-full text-lg text-black whitespace-nowrap p-1 h-7 placeholder-black"
-                                        />
+                                        <div class="text-center text-lg text-black whitespace-nowrap">
+                                            Võ Tấn Lộc
+                                        </div>
                                     </div>
-                                    <div class="flex">
+                                    <div class="flex flex-start w-full">
                                         <h3 class="text-center text-lg text-black whitespace-nowrap">
-                                            Email:
+                                            Email:&nbsp;
                                         </h3>
-                                        <input
-                                            type="text"
-                                            placeholder="votanloc1106@gmail.com"
-                                            class="input input-ghost w-auto text-lg text-black whitespace-nowrap p-1 h-7 placeholder-black"
-                                        />
+                                        <div class="text-center text-lg text-black whitespace-nowrap">
+                                            votanloc1106@gmail.com
+                                        </div>
                                     </div>
-                                    <div class="flex">
+                                    <div class="flex flex-start w-full">
                                         <h3 class="text-center text-lg text-black whitespace-nowrap">
-                                            Số điện thoại:
+                                            Số điện thoại:&nbsp;
                                         </h3>
-                                        <input
-                                            type="text"
-                                            placeholder="0931416850"
-                                            class="input input-ghost w-full text-lg text-black whitespace-nowrap p-1 h-7 placeholder-black"
-                                        />
+                                        <div class="text-center text-lg text-black whitespace-nowrap">
+                                            0931416850
+                                        </div>
                                     </div>
                                     <div class="flex">
                                         <button class="btn btn-outline btn-error m-1">
                                             Đăng xuất
                                         </button>
                                         <button class="btn btn-outline btn-info m-1">
-                                            Lưu thông tin
+                                            Chỉnh sửa
                                         </button>
                                     </div>
                                 </div>
                             </div>
                             <div class="flex flex-col ml-1 items-center">
                                 <span class="text-lg">YuLockii</span>
-                                <span class="justify-center badge badge-info">Admin</span>
+                                <span class="justify-center badge badge-info">Brand</span>
                             </div>
                         </div>
                     </div>
@@ -140,50 +134,44 @@ function Sidebar({ setSelected }) {
                                     <h1 class="text-center font-bold text-3xl text-red-500">
                                         YuLockii
                                     </h1>
-                                    <span class="justify-center badge badge-info">Admin</span>
-                                    <div class="flex">
-                                        <h3 class="text-center text-xl text-black whitespace-nowrap">
-                                            Họ tên:
+                                    <span class="justify-center badge badge-info">Brand</span>
+                                    <div class="flex flex-start w-full">
+                                        <h3 class="text-xl text-black whitespace-nowrap">
+                                            Họ tên:&nbsp;
                                         </h3>
-                                        <input
-                                            type="text"
-                                            placeholder="Võ Tấn Lộc"
-                                            class="input input-ghost w-full text-xl text-black whitespace-nowrap p-1 h-7 placeholder-black"
-                                        />
+                                        <div class="text-xl text-black whitespace-nowrap">
+                                            Võ Tấn Lộc
+                                        </div>
                                     </div>
-                                    <div class="flex">
+                                    <div class="flex flex-start w-full">
                                         <h3 class="text-center text-xl text-black whitespace-nowrap">
-                                            Email:
+                                            Email:&nbsp;
                                         </h3>
-                                        <input
-                                            type="text"
-                                            placeholder="votanloc1106@gmail.com"
-                                            class="input input-ghost w-auto text-xl text-black whitespace-nowrap p-1 h-7 placeholder-black"
-                                        />
+                                        <div class="text-center text-xl text-black whitespace-nowrap">
+                                            votanloc1106@gmail.com
+                                        </div>
                                     </div>
-                                    <div class="flex">
+                                    <div class="flex flex-start w-full">
                                         <h3 class="text-center text-xl text-black whitespace-nowrap">
-                                            Số điện thoại:
+                                            Số điện thoại:&nbsp;
                                         </h3>
-                                        <input
-                                            type="text"
-                                            placeholder="0931416850"
-                                            class="input input-ghost w-full text-xl text-black whitespace-nowrap p-1 h-7 placeholder-black"
-                                        />
+                                        <div class="text-center text-xl text-black whitespace-nowrap">
+                                            0931416850
+                                        </div>
                                     </div>
                                     <div class="flex">
                                         <button class="btn btn-outline btn-error m-2">
                                             Đăng xuất
                                         </button>
                                         <button class="btn btn-outline btn-info m-2">
-                                            Lưu thông tin
+                                            Chỉnh sửa
                                         </button>
                                     </div>
                                 </div>
                             </div>
                             <div class="flex flex-col ml-1 items-center">
                                 <span class="text-xl">YuLockii</span>
-                                <span class="justify-center badge badge-info">Admin</span>
+                                <span class="justify-center badge badge-info">Brand</span>
                             </div>
                         </div>
                     </div>
