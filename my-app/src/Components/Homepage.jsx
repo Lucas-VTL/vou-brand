@@ -4,14 +4,14 @@ import userManageImage from "../utils/images/userManage.png";
 import gameManageImage from "../utils/images/gameManage.png";
 import voucherManageImage from "../utils/images/voucherManage.png";
 import statisticManageImage from "../utils/images/statisticManage.png";
-import eventManageImage from "../utils/images/eventManage.png"
+import eventManageImage from "../utils/images/eventManage.png";
 
 import downloadIcon from "../utils/icons/download.png";
 import loveIcon from "../utils/icons/love.png";
 import userIcon from "../utils/icons/user.png";
 import gameIcon from "../utils/icons/game.png";
 import starIcon from "../utils/icons/star.png";
-import eventIcon from "../utils/icons/party.png"
+import eventIcon from "../utils/icons/party.png";
 import voucherIcon from "../utils/icons/voucher.png";
 import newIcon from "../utils/icons/new.png";
 import profitIcon from "../utils/icons/profit.png";
@@ -36,8 +36,8 @@ function Homepage({ setSelected }) {
     }, []);
 
     return (
-        <div class="bg-white font-Kanit" data-theme="retro">
-            <div class="lg:block hidden h-[664px]">
+        <div class="bg-white font-Kanit h-3/4" data-theme="retro">
+            <div class="lg:block hidden">
                 <div class="flex w-full p-5">
                     <div class="flex flex-col mr-2 items-center w-2/3">
                         <div class="font-bold sm:text-lg xl:text-xl 2xl:text-2xl text-info mb-5">

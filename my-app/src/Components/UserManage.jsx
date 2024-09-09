@@ -422,8 +422,8 @@ function UserManage() {
     }, [profileData, newProfileData, allProfileData, currentProfile]);
 
     return (
-        <div class="bg-white font-Kanit" data-theme="retro">
-            <div class="lg:block hidden h-[664px]">
+        <div class="bg-white font-Kanit h-3/4" data-theme="retro">
+            <div class="lg:block hidden">
                 <div class="flex w-full p-5 sm:p-1 sm:pt-5">
                     <div class="flex flex-col mr-2 items-center w-2/3 sm:mr-1">
                         <div class="font-bold sm:text-lg xl:text-xl 2xl:text-2xl text-info mb-5">
