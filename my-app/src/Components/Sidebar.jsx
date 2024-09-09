@@ -78,7 +78,7 @@ function Sidebar({ setSelected }) {
                                     <h1 class="text-center font-bold text-2xl text-red-500">
                                         YuLockii
                                     </h1>
-                                    <span class="justify-center badge badge-info">Admin</span>
+                                    <span class="justify-center badge badge-info">Brand</span>
                                     <div class="flex flex-start w-full">
                                         <h3 class="text-center text-lg text-black whitespace-nowrap">
                                             Họ tên:&nbsp;
@@ -115,7 +115,7 @@ function Sidebar({ setSelected }) {
                             </div>
                             <div class="flex flex-col ml-1 items-center">
                                 <span class="text-lg">YuLockii</span>
-                                <span class="justify-center badge badge-info">Admin</span>
+                                <span class="justify-center badge badge-info">Brand</span>
                             </div>
                         </div>
                     </div>
@@ -134,7 +134,7 @@ function Sidebar({ setSelected }) {
                                     <h1 class="text-center font-bold text-3xl text-red-500">
                                         YuLockii
                                     </h1>
-                                    <span class="justify-center badge badge-info">Admin</span>
+                                    <span class="justify-center badge badge-info">Brand</span>
                                     <div class="flex flex-start w-full">
                                         <h3 class="text-xl text-black whitespace-nowrap">
                                             Họ tên:&nbsp;
@@ -171,7 +171,7 @@ function Sidebar({ setSelected }) {
                             </div>
                             <div class="flex flex-col ml-1 items-center">
                                 <span class="text-xl">YuLockii</span>
-                                <span class="justify-center badge badge-info">Admin</span>
+                                <span class="justify-center badge badge-info">Brand</span>
                             </div>
                         </div>
                     </div>
